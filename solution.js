@@ -22,6 +22,6 @@ function palindrome(str) {
 //module.exports = palindrome
 let st = prompt();
 if (checkPalindrome(st) == true)
-    document.write("Yes");
+    document.write("true");
 else
-    document.write("No");
+    document.write("false");
